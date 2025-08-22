@@ -16,11 +16,11 @@ for i in range(3):
     menor = min(alturas)
 
     if gen == 'F':
-        num_mulheres = num_mulheres + 1
+        num_mulheres += 1
 
 
     if gen == 'M':
-        num_homens = num_homens + 1
+        num_homens += 1
 
         if num_homens == 0:
             media = 0
