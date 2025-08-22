@@ -30,5 +30,5 @@ for i in range(15):
 
 print(f'A maior altura do grupo é {maior}')
 print(f'A menor altura do grupo é {menor}')
-print(f'A média de altura das pessoas do gênero Masculino {media}')
+print(f'A média de altura das pessoas do gênero masculino {media}')
 print(f'O número de pessoas do gênero feminino é {num_mulheres}')
