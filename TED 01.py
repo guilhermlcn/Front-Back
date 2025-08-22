@@ -5,7 +5,7 @@ media = 0
 total = 0
 num_homens = 0
 
-for i in range(15):
+for i in range(3):
     alt = float(input('Qual sua altura: '))
     gen = input("Qual seu gênero, digite F para feminino, e M para masculino: ").strip().upper()
 
@@ -22,11 +22,11 @@ for i in range(15):
     if gen == 'M':
         num_homens = num_homens + 1
 
-    if num_homens == 0:
-        media = 0
-    else:
-        total = total + alt
-        media = total/num_homens
+        if num_homens == 0:
+            media = 0
+        else:
+            total = total + alt
+            media = total/num_homens
 
 print(f'A maior altura do grupo é {maior}')
 print(f'A menor altura do grupo é {menor}')
