@@ -5,7 +5,7 @@ media = 0
 total = 0
 num_homens = 0
 
-for i in range(3):
+for i in range(15):
     alt = float(input('Qual sua altura: '))
     gen = input("Qual seu gênero, digite F para feminino, e M para masculino: ").strip().upper()
 
